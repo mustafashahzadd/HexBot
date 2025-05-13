@@ -94,6 +94,7 @@ A walkthrough video is included in the `/AI Demo Video` folder. You may also run
 A walkthrough of report included in the `/AI Project Report` folder.
 
 Want a direct access to the demo and report follow the drive link below
+https://drive.google.com/drive/u/0/folders/1itRf7YRnVr3xjzMS7DeE3_uMGKxmddAm
 
 ## 🔧 Future Enhancements
 - Real-time multiplayer over sockets (WebSockets)
