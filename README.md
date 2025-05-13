@@ -25,9 +25,9 @@ Players take turns to claim hexagonal cells on a grid, and AI players make intel
 ├── README.md                # You're here!
 ```
 
-## 🚀 Features
+##  Features
 
-### ✅ Game Modes
+###  Game Modes
 - **Manual** – Play locally with 2–4 players manually clicking hexes.
 - **User vs AI** – Human vs selected AI models.
 - **AI vs AI** – Fully autonomous simulation with time-delayed animations.
@@ -38,12 +38,12 @@ Players take turns to claim hexagonal cells on a grid, and AI players make intel
 - AI responds using smart prompts, optionally influenced by human "hints"
 - Decisions generated using `generate_ai_move(...)` from `models.py`
 
-### 🎨 Visual Features
+###  Visual Features
 - Color-coded territory zones with live score updates
 - In-turn animations: AI moves shown with 2–3 sec delays and natural explanations
 - Responsive on-screen grid input (clickable buttons)
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## 📊 AI Prompting (LLM Logic)
+##  AI Prompting (LLM Logic)
 
 Located in `models.py`, the AI uses a context-aware prompt that includes:
 - Objective + Rules
@@ -82,15 +82,18 @@ Located in `models.py`, the AI uses a context-aware prompt that includes:
 - Optional human hint (`user_hint`)
 - Returns move as `(row, col)` tuple
 
-## 🧠 Example AI Response
+##  Example AI Response
 
-> 🤖 **Mistral** says: “I’m choosing (4, 2) to gain territory near the corner.”
+>  **Mistral** says: “I’m choosing (4, 2) to gain territory near the corner.”
 
 This message appears before each AI move to simulate thoughtful reasoning.
 
-## 📹 Demo
+## 📹 Demo And Report
 
 A walkthrough video is included in the `/AI Demo Video` folder. You may also run a full match using “Play to End” to visualize AI turns.
+A walkthrough of report included in the `/AI Project Report` folder.
+
+Want a direct access to the demo and report follow the drive link below
 
 ## 🔧 Future Enhancements
 - Real-time multiplayer over sockets (WebSockets)
@@ -99,10 +102,8 @@ A walkthrough video is included in the `/AI Demo Video` folder. You may also run
 - Sound/turn alert system
 - Skin/theme customizer
 
-## 📄 License
+##  License
 
 This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ---
-
-Made with  by Mustafa Shahzad 22k-4166, Muhammad Alyan 22k-4582 And Nawfal Hussain 22k-4372 | Powered by Open Source AI
