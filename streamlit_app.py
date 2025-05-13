@@ -1,6 +1,5 @@
 import streamlit as st
+from Ui import run_game_ui
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+if __name__ == "__main__":
+    run_game_ui()
